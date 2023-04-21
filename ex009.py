@@ -1,3 +1,4 @@
+##verifica se um número é divisível por outro número
 num1 = int(input("Digite um número: "))
 num2 = int(input("Digite outro número: "))
 

@@ -1,18 +1,15 @@
-n = int(input("Digite um número inteiro: "))
+##verifica se um número é primo
+num = int(input("Digite um número inteiro: "))
 
-if n < 2:
-    print("O número não é primo.")
-else:
+if num > 1:
     i = 2
-    res = False
-    
-    while i < n and not res:
-        x = n % i
-        if x == 0:
-            res = True
-        i += 1
-    
-    if res:
-        print("O número não é primo.")
+    while i < num:
+        if (num % i) == 0:
+            print(num, "não é um número primo")
+            break
+        i = i + 1
     else:
-        print("O número é primo.")
+        print(num, "é um número primo")
+else:
+    print(num, "não é um número primo")
+

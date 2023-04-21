@@ -1,8 +1,8 @@
+##Analisa se o número está dentro do intervalo dado pelo usuário
 num = float(input("Digite um número: "))
 inicio_inter = float(input("Digite o valor inicial: "))
 fim_inter = float(input("Digite um valor final para o intervalo: "))
 
-## Analisa se o número está dentro do intervalo dado pelo usuário
 if num>= inicio_inter and num <= fim_inter:
     print("O número está dentro do intervalo.")
 else:
