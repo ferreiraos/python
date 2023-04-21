@@ -1,5 +1,5 @@
 ## Recebe a altura do usuário e analisa se é suficiente para ir no brinquedo
-altura = float(input("Digite sua altura(em m): "))
+altura = float(input("Insira sua altura(em m): "))
 altura_minima = float(input("Digite a altura mínima do brinquedo: "))
 
 if altura >= altura_minima:
